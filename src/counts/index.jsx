@@ -11,7 +11,7 @@ const Counts = () => {
             <div className="count-box">
               <i className="fas fa-user-md" />
               <span data-purecounter-start={0} data-purecounter-end={85} data-purecounter-duration={1} className="purecounter" />
-              <p><strong>Doctors</strong> consequuntur quae qui deca rode</p>
+              <p><strong>Doctor & Nurse</strong> Pada U-klinik ini tersedia 1 dokter dan 1 perawat saja</p>
               <a href="#">Find out more »</a>
             </div>
           </div>
@@ -19,7 +19,7 @@ const Counts = () => {
             <div className="count-box">
               <i className="far fa-hospital" />
               <span data-purecounter-start={0} data-purecounter-end={26} data-purecounter-duration={1} className="purecounter" />
-              <p><strong>Departments</strong> adipisci atque cum quia aut numquam delectus</p>
+              <p><strong>Equipment</strong> Alat-alat di U-klinik</p>
               <a href="#">Find out more »</a>
             </div>
           </div>
@@ -27,7 +27,7 @@ const Counts = () => {
             <div className="count-box">
               <i className="fas fa-flask" />
               <span data-purecounter-start={0} data-purecounter-end={14} data-purecounter-duration={1} className="purecounter" />
-              <p><strong>Research Lab</strong> aut commodi quaerat. Aliquam ratione</p>
+              <p><strong>Lab check-up</strong> Untuk saat ini tersedia untuk pemeriksaan TBC dan hepatitis</p>
               <a href="#">Find out more »</a>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Counts = () => {
             <div className="count-box">
               <i className="fas fa-award" />
               <span data-purecounter-start={0} data-purecounter-end={150} data-purecounter-duration={1} className="purecounter" />
-              <p><strong>Awards</strong> rerum asperiores dolor molestiae doloribu</p>
+              <p><strong>Awards</strong> Klinik terbaik di UNKLAB</p>
               <a href="#">Find out more »</a>
             </div>
           </div>
