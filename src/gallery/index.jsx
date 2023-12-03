@@ -8,8 +8,7 @@ const Gallery = () => {
       <div className="container" data-aos="fade-up">
         <div className="section-title">
           <h2>Operational Hours</h2>
-          <p>
-JAM OPERASIONAL UNIT KESEHATAN KAMPUS            </p>
+          <p>JAM OPERASIONAL UNIT KESEHATAN KAMPUS</p>
         </div>
         <div ><a href="src/assets/img/gallery/jadwal.jpeg"><img src="src/assets/img/gallery/jadwal.jpeg"  alt /></a></div>
         {/* <div className="gallery-slider swiper">

@@ -8,8 +8,7 @@ const Faq = () => {
       <div className="container" data-aos="fade-up">
         <div className="section-title">
           <h2>Frequently Asked Questioins</h2>
-          <p>
-Pertanyaan-pertanyaan yang sering ditanyakan.            </p>
+          <p>Pertanyaan-pertanyaan yang sering ditanyakan.</p>
         </div>
         <ul className="faq-list">
           <li>
