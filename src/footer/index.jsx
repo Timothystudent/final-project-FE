@@ -9,12 +9,12 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-3 col-md-6">
             <div className="footer-info">
-              <h3>Medicio</h3>
+              <h3>Uclinic</h3>
               <p>
-                A108 Adam Street <br />
-                NY 535022, USA<br /><br />
-                <strong>Phone:</strong> +1 5589 55488 55<br />
-                <strong>Email:</strong> info@example.com<br />
+                Gedung Kuliah 2<br />
+                Universitas Klabat<br /><br />
+                <strong>Phone:</strong> 0895630033991<br />
+                {/* <strong>Email:</strong> info@example.com<br /> */}
               </p>
               <div className="social-links mt-3">
                 <a href="#" className="twitter"><i className="bx bxl-twitter" /></a>
@@ -38,16 +38,16 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i className="bx bx-chevron-right" /> <a href="#">Web Design</a></li>
-              <li><i className="bx bx-chevron-right" /> <a href="#">Web Development</a></li>
-              <li><i className="bx bx-chevron-right" /> <a href="#">Product Management</a></li>
-              <li><i className="bx bx-chevron-right" /> <a href="#">Marketing</a></li>
-              <li><i className="bx bx-chevron-right" /> <a href="#">Graphic Design</a></li>
+              <li><i className="bx bx-chevron-right" /> <a href="#">Pemeriksaan Tekanan Darah</a></li>
+              <li><i className="bx bx-chevron-right" /> <a href="#">Obat-Obatan</a></li>
+              <li><i className="bx bx-chevron-right" /> <a href="#">Konstultasi</a></li>
+              <li><i className="bx bx-chevron-right" /> <a href="#">Pemeriksaan</a></li>
+              <li><i className="bx bx-chevron-right" /> <a href="#">Penanganan Darurat</a></li>
             </ul>
           </div>
           <div className="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <p>Silahkan kunjungi kami</p>
             <form action method="post">
               <input type="email" name="email" /><input type="submit" defaultValue="Subscribe" />
             </form>
@@ -57,7 +57,7 @@ const Footer = () => {
     </div>
     <div className="container">
       <div className="copyright">
-        © Copyright <strong><span>Medicio</span></strong>. All Rights Reserved
+        © Copyright <strong><span>Uclinic</span></strong>. All Rights Reserved
       </div>
       <div className="credits">
         {/* All the links in the footer should remain intact. */}
