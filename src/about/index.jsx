@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className="row">
           <div className="col-lg-6" data-aos="fade-right">
-            <img src="src/assets/img/about.jpg" className="img-fluid" alt />
+            <img src="src/assets/img/hero.jpeg" className="img-fluid" alt />
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>U-Clinic</h3>
