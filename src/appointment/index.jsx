@@ -29,17 +29,13 @@ const Appointment = () => {
             <div className="col-md-4 form-group mt-3">
               <select name="department" id="department" className="form-select">
                 <option value>Select Department</option>
-                <option value="Department 1">Department 1</option>
-                <option value="Department 2">Department 2</option>
-                <option value="Department 3">Department 3</option>
+                <option value="Department 1">None</option>
               </select>
             </div>
             <div className="col-md-4 form-group mt-3">
               <select name="doctor" id="doctor" className="form-select">
                 <option value>Select Doctor</option>
-                <option value="Doctor 1">Doctor 1</option>
-                <option value="Doctor 2">Doctor 2</option>
-                <option value="Doctor 3">Doctor 3</option>
+                <option value="">dr. Nancy Sampouw, M.Kes</option>
               </select>
             </div>
           </div>

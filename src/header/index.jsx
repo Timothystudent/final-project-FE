@@ -5,7 +5,7 @@ const Header = () => {
    <>
      <header id="header" className="fixed-top">
     <div className="container d-flex align-items-center">
-      <a href="index.html" className="logo me-auto"><img src="src/assets/img/logo.png" alt /></a>
+      <a href="index.html" className="logo me-auto"><img src="src/assets/img/Logo2.png" alt /></a>
       {/* Uncomment below if you prefer to use an image logo */}
       {/* <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> */}
       <nav id="navbar" className="navbar order-last order-lg-0">
