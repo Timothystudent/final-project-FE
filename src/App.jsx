@@ -10,14 +10,14 @@ import FeaturedService from './featured-service'
 import Cta from './cta'
 import About from './about'
 import Counts from './counts'
-import Features from './features'
+
 import Service from './service'
 import Appointment from './appointment'
 import Departments from './departments'
-import Testimonials from './testimonials'
+
 import Doctors from './doctors'
 import Gallery from './gallery'
-import Pricing from './pricing'
+
 import Faq from './faq'
 import Contact from './contact'
 import Footer from './footer'
@@ -35,14 +35,14 @@ function App() {
     <Cta/>
     <About/>
     <Counts/>
-    <Features/>
+    
     <Service/>
     <Appointment/>
     <Departments/>
-    <Testimonials/>
+    
     <Doctors/>
     <Gallery/>
-    <Pricing/>
+ 
     <Faq/>
     <Contact/>
     <Footer/>

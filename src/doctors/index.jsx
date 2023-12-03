@@ -8,7 +8,7 @@ const Doctors = () => {
       <div className="container" data-aos="fade-up">
         <div className="section-title">
           <h2>EMPLOYEES</h2>
-          <p>Berikut ini adalah daftar profil dokter, perawat, dan student labor yang bertugas di Uclinic</p>
+          <p>Berikut ini adalah daftar profil dokter, perawat, dan student labor yang bertugas di Klinik</p>
         </div>
         <div className="row">
           <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
