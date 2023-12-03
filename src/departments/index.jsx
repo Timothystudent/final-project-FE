@@ -7,34 +7,33 @@ const Departments = () => {
     <section id="departments" className="departments">
       <div className="container" data-aos="fade-up">
         <div className="section-title">
-          <h2>Departments</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Facilities</h2>
         </div>
         <div className="row" data-aos="fade-up" data-aos-delay={100}>
           <div className="col-lg-4 mb-5 mb-lg-0">
             <ul className="nav nav-tabs flex-column">
               <li className="nav-item">
                 <a className="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-                  <h4>Cardiology</h4>
-                  <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
+                  <h4>Stetoscope</h4>
+                  <p>Alat pemeriksaan yang umum</p>
                 </a>
               </li>
               <li className="nav-item mt-2">
                 <a className="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-                  <h4>Neurology</h4>
-                  <p>Voluptas vel esse repudiandae quo excepturi.</p>
+                  <h4>Centrifuge</h4>
+                  <p>Alat untuk pengambilan samel darah</p>
                 </a>
               </li>
               <li className="nav-item mt-2">
                 <a className="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-                  <h4>Hepatology</h4>
-                  <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
+                  <h4>Sphygmomanometer</h4>
+                  <p>Alat untuk pemeriksaan tekanan darah</p>
                 </a>
               </li>
               <li className="nav-item mt-2">
                 <a className="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
-                  <h4>Pediatrics</h4>
-                  <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
+                  <h4>Oxygen Tank</h4>
+                  <p>Pertolongan pertama untuk kondisi tertentu</p>
                 </a>
               </li>
             </ul>
@@ -42,28 +41,24 @@ const Departments = () => {
           <div className="col-lg-8">
             <div className="tab-content">
               <div className="tab-pane active show" id="tab-1">
-                <h3>Cardiology</h3>
-                <p className="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                <h3>Stetoscope</h3>
                 <img src="src/assets/img/departments-1.jpg" alt className="img-fluid" />
-                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                <p>Stetoskop merupakan alat bantu pemeriksaan yang umum digunakan oleh dokter. Alat ini berfungsi untuk mendengarkan suara dari dalam tubuh, salah satunya untuk mendengar suara detak jantung dan mendeteksi kelainannya.</p>
               </div>
               <div className="tab-pane" id="tab-2">
-                <h3>Neurology</h3>
-                <p className="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                <img src="src/assets/img/departments-2.jpg" alt className="img-fluid" />
-                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                <h3>Centrifuge</h3>
+                <img src="src/assets/img/centrifuge.jpeg" alt className="img-fluid" />
+                <p>Centrifuge merupakan alat yang digunakan untuk memisahkan organel berdasarkan massa jenisnya melalui proses pengendapan. Dalam prosesnya, Centrifuge menggunakan prinsip rotasi atau perputaran tabung yang berisi larutan agar dapat dipisahkan berdasarkan massa jenisnya</p>
               </div>
               <div className="tab-pane" id="tab-3">
-                <h3>Hepatology</h3>
-                <p className="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                <h3>Sphygmomanometer</h3>
                 <img src="src/assets/img/departments-3.jpg" alt className="img-fluid" />
-                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                <p>Tensimeter adalah alat yang digunakan untuk mengukur tekanan darah. Dengan mengetahui berapa tekanan darah kita, kita dapat menilai apakah tekanan darah/tensi darah kita normal atau tidak.</p>
               </div>
               <div className="tab-pane" id="tab-4">
-                <h3>Pediatrics</h3>
-                <p className="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                <img src="src/assets/img/departments-4.jpg" alt className="img-fluid" />
-                <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                <h3>Oxygen Tank</h3>
+                <img src="src/assets/img/Oxygen.jpeg" alt className="img-fluid" />
+                <p>Tabung oksigen merupakan alat pertolongan pertama yang dapat digunakan untuk menghadapi kondisi darurat akibat penyakit-penyakit tersebut.</p>
               </div>
             </div>
           </div>
