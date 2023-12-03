@@ -7,10 +7,12 @@ const Gallery = () => {
       <section id="gallery" className="gallery">
       <div className="container" data-aos="fade-up">
         <div className="section-title">
-          <h2>Gallery</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Operational Hours</h2>
+          <p>
+JAM OPERASIONAL UNIT KESEHATAN KAMPUS            </p>
         </div>
-        <div className="gallery-slider swiper">
+        <div ><a href="src/assets/img/gallery/jadwal.jpeg"><img src="src/assets/img/gallery/jadwal.jpeg"  alt /></a></div>
+        {/* <div className="gallery-slider swiper">
           <div className="swiper-wrapper align-items-center">
             <div className="swiper-slide"><a className="gallery-lightbox" href="src/assets/img/gallery/gallery-1.jpg"><img src="src/assets/img/gallery/gallery-1.jpg" className="img-fluid" alt /></a></div>
             <div className="swiper-slide"><a className="gallery-lightbox" href="src/assets/img/gallery/gallery-2.jpg"><img src="src/assets/img/gallery/gallery-2.jpg" className="img-fluid" alt /></a></div>
@@ -22,7 +24,7 @@ const Gallery = () => {
             <div className="swiper-slide"><a className="gallery-lightbox" href="src/assets/img/gallery/gallery-8.jpg"><img src="src/assets/img/gallery/gallery-8.jpg" className="img-fluid" alt /></a></div>
           </div>
           <div className="swiper-pagination" />
-        </div>
+        </div> */}
       </div>
     </section>{/* End Gallery Section */}
     </>
