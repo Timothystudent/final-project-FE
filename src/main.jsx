@@ -12,15 +12,18 @@ import '/src/assets/vendor/swiper/swiper-bundle.min.css'
 import '/src/assets/vendor/fontawesome-free/css/all.min.css'
 import '/src/assets/css/style.css'
 
-// Import scripts
 
+import AOS from 'aos';
+import 'bootstrap';
+import GLightbox from 'glightbox';
+import Isotope from 'isotope-layout';
+import Swiper from 'swiper';
 
-// Initialize other scripts as needed
+// Initialize scripts as needed
+AOS.init();
+GLightbox();
 
-// Your Vite application code here
-
-// import './index.css'
-
+import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
