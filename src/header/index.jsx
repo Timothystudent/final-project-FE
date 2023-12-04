@@ -1,11 +1,28 @@
 import React from 'react'
+import { getDatabase, ref, onValue } from "firebase/database";
+import { useEffect, useState } from "react";
 
 const Header = () => {
+  const [title, setTitle] = useState("");
+  const [subTitle, setSubTitle] = useState("");
+  const [image2, setImage] = useState("");
+
+  useEffect(() => {
+      const db = getDatabase();
+      const heroRef = ref(db, "hero/");
+      onValue(heroRef, (snapshot) => {
+        const data = snapshot.val();
+        setTitle(data.title);
+        setSubTitle(data.subTitle);
+        setImage(data.image2);
+      });
+  }, []);
+
   return (
    <>
      <header id="header" className="fixed-top">
     <div className="container d-flex align-items-center">
-      <a href="index.html" className="logo me-auto"><img src="src/assets/img/Logo2.png" alt /></a>
+      <a href="index.html" className="logo me-auto"><img src={image2} alt /></a>
       {/* Uncomment below if you prefer to use an image logo */}
       {/* <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> */}
       <nav id="navbar" className="navbar order-last order-lg-0">
