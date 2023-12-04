@@ -13,17 +13,17 @@ import '/src/assets/vendor/fontawesome-free/css/all.min.css'
 import '/src/assets/css/style.css'
 
 
-import AOS from 'aos';
-import 'bootstrap';
-import GLightbox from 'glightbox';
-import Isotope from 'isotope-layout';
-import Swiper from 'swiper';
+// import AOS from 'aos';
+// import 'bootstrap';
+// import GLightbox from 'glightbox';
+// import Isotope from 'isotope-layout';
+// import Swiper from 'swiper';
 
-// Initialize scripts as needed
-AOS.init();
-GLightbox();
+// // Initialize scripts as needed
+// AOS.init();
+// GLightbox();
 
-import './index.css'
+// import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
