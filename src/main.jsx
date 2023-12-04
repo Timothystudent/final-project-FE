@@ -16,8 +16,6 @@ import '/src/assets/css/style.css'
 import AOS from 'aos';
 import 'bootstrap';
 import GLightbox from 'glightbox';
-import Isotope from 'isotope-layout';
-import Swiper from 'swiper';
 
 // Initialize scripts as needed
 AOS.init();
