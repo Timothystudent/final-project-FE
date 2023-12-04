@@ -1,6 +1,23 @@
 import React from 'react'
+import { getDatabase, ref, onValue } from "firebase/database";
+import { useEffect, useState } from "react";
 
 const About = () => {
+  const [title, setTitle] = useState("");
+    const [subTitle, setSubTitle] = useState("");
+    const [image3, setImage] = useState("");
+
+    useEffect(() => {
+        const db = getDatabase();
+        const heroRef = ref(db, "hero/");
+        onValue(heroRef, (snapshot) => {
+          const data = snapshot.val();
+          setTitle(data.title);
+          setSubTitle(data.subTitle);
+          setImage(data.image3);
+        });
+    }, []);
+
   return (
     <>
         {/* ======= About Us Section ======= */}
@@ -12,7 +29,7 @@ const About = () => {
         </div>
         <div className="row">
           <div className="col-lg-6" data-aos="fade-right">
-            <img src="src/assets/img/hero.jpeg" className="img-fluid" alt />
+            <img src={image3} className="img-fluid" alt />
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>U-Clinic</h3>

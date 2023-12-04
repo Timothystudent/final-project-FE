@@ -1,6 +1,27 @@
 import React from 'react'
+import { getDatabase, ref, onValue } from "firebase/database";
+import { useEffect, useState } from "react";
+
+
 
 const Doctors = () => {
+  const [doctor, setDoctor] = useState("");
+  const [nurse, setNurse] = useState("");
+  const [labor1, setLabor1] = useState("");
+  const [labor2, setLabor2] = useState("");
+
+  useEffect(() => {
+      const db = getDatabase();
+      const heroRef = ref(db, "hero/");
+      onValue(heroRef, (snapshot) => {
+        const data = snapshot.val();
+        setDoctor(data.doctor);
+        setNurse(data.nurse);
+        setLabor1(data.labor1);
+        setLabor2(data.labor2);
+      });
+  }, []);
+
   return (
     <>
     {/* ======= Doctors Section ======= */}
@@ -14,7 +35,7 @@ const Doctors = () => {
           <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div className="member" data-aos="fade-up" data-aos-delay={100}>
               <div className="member-img">
-                <img src="src/assets/img/doctors/WhatsApp Image 2023-12-03 at 4.32.35 PM.jpeg" className="img-fluid" alt />
+                <img src={doctor} className="img-fluid" alt />
                 <div className="social">
                   <a href><i className="bi bi-twitter" /></a>
                   <a href><i className="bi bi-facebook" /></a>
@@ -31,7 +52,7 @@ const Doctors = () => {
           <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div className="member" data-aos="fade-up" data-aos-delay={200}>
               <div className="member-img">
-                <img src="src/assets/img/doctors/WhatsApp Image 2023-12-03 at 4.32.37 PM.jpeg" className="img-fluid" alt />
+                <img src={nurse} className="img-fluid" alt />
                 <div className="social">
                   <a href><i className="bi bi-twitter" /></a>
                   <a href><i className="bi bi-facebook" /></a>
@@ -48,7 +69,7 @@ const Doctors = () => {
           <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div className="member" data-aos="fade-up" data-aos-delay={300}>
               <div className="member-img">
-                <img src="src/assets/img/doctors/WhatsApp Image 2023-12-03 at 4.32.37 PM.jpeg" className="img-fluid" alt />
+                <img src={labor1} className="img-fluid" alt />
                 <div className="social">
                   <a href><i className="bi bi-twitter" /></a>
                   <a href><i className="bi bi-facebook" /></a>
@@ -65,7 +86,7 @@ const Doctors = () => {
           <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div className="member" data-aos="fade-up" data-aos-delay={400}>
               <div className="member-img">
-                <img src="src/assets/img/doctors/surgeon.png" className="img-fluid" alt />
+                <img src={labor2} className="img-fluid" alt />
                 <div className="social">
                   <a href><i className="bi bi-twitter" /></a>
                   <a href><i className="bi bi-facebook" /></a>

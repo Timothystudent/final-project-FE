@@ -1,6 +1,22 @@
 import React from 'react'
+import { getDatabase, ref, onValue } from "firebase/database";
+import { useEffect, useState } from "react";
+
 
 const Gallery = () => {
+  const [schedule, setSchedule] = useState("");
+
+
+  useEffect(() => {
+      const db = getDatabase();
+      const heroRef = ref(db, "hero/");
+      onValue(heroRef, (snapshot) => {
+        const data = snapshot.val();
+        setSchedule(data.schedule);
+
+      
+      });
+  }, []);
   return (
     <>
       {/* ======= Gallery Section ======= */}
@@ -10,7 +26,7 @@ const Gallery = () => {
           <h2>Operational Hours</h2>
           <p>JAM OPERASIONAL UNIT KESEHATAN KAMPUS</p>
         </div>
-        <div ><a href="src/assets/img/gallery/jadwal.jpeg"><img src="src/assets/img/gallery/jadwal.jpeg"  alt /></a></div>
+        <div ><a href={schedule}><img src={schedule}  alt /></a></div>
         {/* <div className="gallery-slider swiper">
           <div className="swiper-wrapper align-items-center">
             <div className="swiper-slide"><a className="gallery-lightbox" href="src/assets/img/gallery/gallery-1.jpg"><img src="src/assets/img/gallery/gallery-1.jpg" className="img-fluid" alt /></a></div>
