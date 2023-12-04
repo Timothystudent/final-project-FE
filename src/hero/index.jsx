@@ -29,7 +29,7 @@ const Hero = () => {
         {/* Slide 1 */}
         <div className="carousel-item active" style={{backgroundImage: `url(${image})`}}>
           <div className="container">
-            <h2>Welcome tooo <span>U-Clinic</span></h2>
+            <h2>Welcome to <span>U-Clinic</span></h2>
             <p>{title}</p>
             <a href="#about" className="btn-get-started scrollto">Read More</a>
           </div>
