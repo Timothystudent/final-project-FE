@@ -21,7 +21,6 @@ import GLightbox from 'glightbox';
 AOS.init();
 GLightbox();
 
-import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
